@@ -14,7 +14,6 @@ define('GUTENBIZ_PREFIX', 'gutenbiz');
 define('GUTENBIZ_VERSION', '1.0.19');
 
 require get_parent_theme_file_path('/classes/class-helper.php');
-
 final class Gutenbiz_Theme extends Gutenbiz_Helper
 {
 	/**

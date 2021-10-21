@@ -11,7 +11,7 @@ add_action('init', Gutenbiz_Helper::fn_prefix('custom_width'), 99);
 add_action('customize_preview_init', Gutenbiz_Helper::fn_prefix('custom_width'), 150);
 
 /**
- * Adjust custom width
+ * Adjust custom width 
  *
  * @since 1.0.0
  * @package Gutenbiz WordPress Theme
@@ -207,6 +207,7 @@ function gutenbiz_all_device_css()
 		array(
 			'selector'  => '.menubar-2',
 			'props'		=> array(
+				
 				'color' => 'test_menu_color'
 			),
 		),
